@@ -1,0 +1,4 @@
+node_modules/*
+package-lock.json
+package.json
+client_tulieu_nangcap/public/ui.umd.js
