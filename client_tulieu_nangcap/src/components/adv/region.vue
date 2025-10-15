@@ -231,7 +231,7 @@ const conditionXa = computed(() => {
       <div v-else class="flex flex-wrap -mx-2">
         <div class="xs12 sm6 px-2">
           <vuejx-autocomplete-wrap :key="dataForm[item.model + '.TinhThanh']" @changeData="changeDataCbx" :item='{
-            column: ["MaMuc", "TenMuc", "type", "TinhThanh"],
+            column: ["MaMuc", "TenMuc", "type", "TinhThanhHopNhat"],
             modelRoot: item.model, modelView: "object",
             label: item["placeholder_tinh"],
             placeholder: item["placeholder_tinh"],
@@ -249,7 +249,7 @@ const conditionXa = computed(() => {
         </div>
         <div class="xs12 sm6 px-2">
           <vuejx-autocomplete-wrap :key="renderXa" @changeData="changeDataCbx" :item='{
-            column: ["MaMuc", "TenMuc", "type", "TinhThanh"],
+            column: ["MaMuc", "TenMuc", "type", "PhuongXaHopNhat"],
             modelRoot: item.model, modelView: "object",
             label: item["placeholder_xa"],
             placeholder: item["placeholder_xa"],
